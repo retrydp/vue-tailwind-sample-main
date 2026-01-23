@@ -1,10 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Form from './components/Form.vue';
+
 </script>
 
 <template>
-  <div class="flex h-screen bg-amber-900 justify-center items-center">
-    <div class="lol ">dsa sample</div>
+  <div class="flex h-screen bg-slate-400 justify-center items-center">
+    <Form />
   </div>
 </template>
 
