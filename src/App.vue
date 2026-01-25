@@ -1,12 +1,10 @@
 <script setup>
-import Form from './components/Form.vue';
-
+  import MainMenu from "./components/MainMenu.vue"
 </script>
 
 <template>
-  <div class="flex h-screen bg-slate-400 justify-center items-center">
-    <Form />
-  </div>
+  <MainMenu />
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
