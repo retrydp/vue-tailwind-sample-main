@@ -1,3 +1,4 @@
+
 <script setup lang="ts">
   import CatalogButton from './CatalogButton.vue';
   import Search from './Search.vue';

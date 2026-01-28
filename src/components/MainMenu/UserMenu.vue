@@ -4,7 +4,7 @@
 </script>
 <template>
   <div
-    class="fixed bottom-0 flex flex-row justify-between w-full px-4 py-2 md:static md:w-96 md:pl-0"
+    class="fixed bottom-0 flex flex-row justify-between w-full px-4 py-2 md:static md:w-96 md:pl-0 z-1 bg-white"
   >
     <button class="flex flex-col items-center justify-between md:hidden">
       <img class="w-6 h-6" src="../../assets/miniMenu.png" alt="" />
