@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  import MenuCartButton from './MenuCartButton.vue';
-  import MenuUserButton from './MenuUserButton.vue';
+import MenuCartButton from './MenuCartButton.vue';
+import MenuUserButton from './MenuUserButton.vue';
 </script>
 <template>
   <div

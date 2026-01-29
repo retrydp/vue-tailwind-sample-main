@@ -1,6 +1,6 @@
 <script setup>
-  import MenuHeader from './components/MenuHeader';
-  import MainLayout from './components/MainLayout';
+import MenuHeader from './components/MenuHeader';
+import MainLayout from './components/MainLayout';
 </script>
 
 <template>

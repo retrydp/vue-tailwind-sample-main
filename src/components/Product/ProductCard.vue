@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  import ProductCardBottom from './ProductCardBottom.vue';
-  import ProductCardTop from './ProductCardTop.vue';
+import ProductCardBottom from './ProductCardBottom.vue';
+import ProductCardTop from './ProductCardTop.vue';
 </script>
 
 <template>

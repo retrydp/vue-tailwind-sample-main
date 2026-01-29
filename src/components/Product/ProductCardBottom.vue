@@ -1,7 +1,6 @@
-
 <script setup lang="ts">
-import ProductRating from './ProductRating.vue';
-import ProductAddToCartBtn from "./ProductAddToCartBtn.vue"
+import ProductRating from './ProductCardRating.vue';
+import ProductAddToCartBtn from './ProductAddToCartBtn.vue';
 </script>
 
 <template>
