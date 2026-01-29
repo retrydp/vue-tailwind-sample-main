@@ -1,12 +1,11 @@
 <script setup>
-  import MainMenu from './components/MainMenu';
-  import CommonWrapper from './components/CommonWrapper';
+  import MenuHeader from './components/MenuHeader';
+  import MainLayout from './components/MainLayout';
 </script>
 
 <template>
-  <MainMenu />
-
-  <CommonWrapper />
+  <MenuHeader />
+  <MainLayout />
 </template>
 
 <style scoped></style>

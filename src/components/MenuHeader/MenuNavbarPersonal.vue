@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  import CartButton from './CartButton.vue';
-  import UserButton from './UserButton.vue';
+  import MenuCartButton from './MenuCartButton.vue';
+  import MenuUserButton from './MenuUserButton.vue';
 </script>
 <template>
   <div
@@ -18,7 +18,7 @@
       <img class="w-6 h-6" src="../../assets/orders_icon.png" alt="" />
       <div class="text-[8px] md:text-xs">Orders</div>
     </button>
-    <CartButton />
-    <UserButton />
+    <MenuCartButton />
+    <MenuUserButton />
   </div>
 </template>

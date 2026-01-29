@@ -7,8 +7,8 @@
 
   const STARS_MAX = 5;
   const STAR_IMAGE_URLS = [
-    new URL('../../assets/plain_star_inactive.png', import.meta.url).href,
-    new URL('../../assets/plain_star.png', import.meta.url).href,
+    new URL('../../assets/plain_star_inactive.svg', import.meta.url).href,
+    new URL('../../assets/plain_star.svg', import.meta.url).href,
   ];
 
   const stars = computed(() =>
