@@ -1,5 +1,5 @@
 <template>
-  <button class="hidden gap-4 p-2 rounded-sm md:flex xl:w-36 bg-lime-600 cursor-pointer" type="button">
+  <button class="hidden gap-4 p-2 rounded-sm cursor-pointer md:flex xl:w-36 bg-def-lime" type="button">
     <div class="flex w-5 ">
       <img src="../../assets/mini_menu.svg" alt="" />
     </div>

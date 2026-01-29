@@ -1,6 +1,6 @@
 <template>
   <button
-    class="w-full p-2 rounded-sm border border-lime-600 text-lime-600 hover:text-white hover:bg-amber-600 hover:border-0 cursor-pointer"
+    class="w-full p-2 border rounded-sm cursor-pointer border-def-lime text-def-lime hover:text-white hover:bg-def-orange hover:border-0"
   >
     Add to cart
   </button>

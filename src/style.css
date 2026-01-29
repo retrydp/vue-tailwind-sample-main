@@ -3,4 +3,6 @@
 
 @theme {
   --font-bitcount: 'Bitcount Prop Single', ui-sans-serif, system-ui;
+  --color-def-orange: var(--color-amber-600);
+  --color-def-lime: var(--color-lime-600);
 }

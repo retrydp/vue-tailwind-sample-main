@@ -5,7 +5,7 @@
 
 <template>
   <div
-    class="flex flex-col rounded-sm bg-white shadow-md hover:shadow-xl hover:shadow-amber-600/35"
+    class="flex flex-col bg-white rounded-sm shadow-md hover:shadow-xl hover:shadow-def-orange/35"
   >
     <ProductCardTop />
     <ProductCardBottom />
