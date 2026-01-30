@@ -5,7 +5,7 @@ import MenuNavbarPersonal from './MenuNavbarPersonal.vue';
 </script>
 
 <template>
-  <div class="flex justify-center w-full shadow-md md:justify-between xl:px-28">
+  <div class="fixed flex justify-center w-full shadow-md md:justify-between xl:px-28 bg-white z-10">
     <div class="flex w-full px-4 py-2">
       <div class="flex items-center w-full gap-5">
         <img class="object-contain w-10 h-8" src="../../assets/logo.png" alt="" />

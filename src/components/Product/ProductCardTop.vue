@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex">
+  <div class="relative flex justify-center">
     <button
       class="flex absolute right-2 top-2 w-8 h-8 p-1.5 rounded-sm items-center bg-gray-600/15 hover:bg-def-orange/75 cursor-pointer"
     >
@@ -9,8 +9,8 @@
       -50%
     </div>
     <img
-      class="object-scale-down"
-      src="https://content1.rozetka.com.ua/goods/images/big_tile/468886072.jpg"
+      class="object-scale-down h-40"
+      src="../../assets/lays.jpg"
     />
   </div>
 </template>
