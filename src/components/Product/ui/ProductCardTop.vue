@@ -13,6 +13,6 @@
     <div class="absolute flex px-2 py-1 text-white rounded-sm bottom-2 left-2 bg-def-orange">
       -50%
     </div>
-    <img class="object-scale-down h-40" src="../../assets/lays.jpg" />
+    <img class="object-scale-down h-40" src="@assets/lays.jpg" />
   </div>
 </template>
