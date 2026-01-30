@@ -6,3 +6,7 @@
   --color-def-orange: var(--color-amber-600);
   --color-def-lime: var(--color-lime-600);
 }
+
+button {
+  cursor: pointer;
+}
