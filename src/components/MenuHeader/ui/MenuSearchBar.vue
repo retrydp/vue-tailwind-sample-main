@@ -45,6 +45,7 @@
       type="text"
       placeholder="Find goods"
       id="search"
+      
     />
   </div>
 </template>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import ProductRating from './ProductCardRating.vue';
-import ProductAddToCartBtn from './ProductCardAddButton.vue';
+import ProductCardRating from './ProductCardRating.vue';
+import ProductCardAddButton from './ProductCardAddButton.vue';
 </script>
 
 <template>
@@ -20,7 +20,7 @@ import ProductAddToCartBtn from './ProductCardAddButton.vue';
       consequatur quidem incidunt modi, sapiente consectetur fugiat vitae deleniti sequi expedita,
       corporis molestias a obcaecati corrupti optio soluta beatae!</span
     >
-    <ProductRating :rating="3" />
-    <ProductAddToCartBtn />
+    <ProductCardRating :rating="3" />
+    <ProductCardAddButton />
   </div>
 </template>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import MenuCatalogButton from './ui/MenuCatalogButton.vue';
 import MenuSearchBar from './ui/MenuSearchBar.vue';
-import MenuNavbarPersonal from './ui/MenuNavbarPersonal.vue';
+import MenuUserSection from './ui/MenuUserSection.vue';
 </script>
 
 <template>
@@ -26,6 +26,6 @@ import MenuNavbarPersonal from './ui/MenuNavbarPersonal.vue';
         <MenuSearchBar />
       </div>
     </div>
-    <MenuNavbarPersonal />
+    <MenuUserSection />
   </div>
 </template>

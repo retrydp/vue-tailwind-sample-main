@@ -6,6 +6,9 @@ import path from 'path';
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
   resolve: {
-    alias: { '@assets': path.resolve(__dirname, './src/assets') }
+    alias: {
+      '@assets': path.resolve(__dirname, './src/assets'),
+      '@components': path.resolve(__dirname, './src/components')
+    }
   }
 });

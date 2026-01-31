@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import ProductGrid from '../Product';
 import ProductSection from '../Product/ProductSection.vue';
 </script>
 
