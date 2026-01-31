@@ -4,7 +4,7 @@
 
 @theme {
   --font-bitcount: 'Bitcount Prop Single', ui-sans-serif, system-ui;
-  --font-banner: "Cookie", ui-sans-serif;
+  --font-banner: 'Cookie', ui-sans-serif;
   --color-def-orange: var(--color-amber-600);
   --color-def-lime: var(--color-lime-600);
 }
