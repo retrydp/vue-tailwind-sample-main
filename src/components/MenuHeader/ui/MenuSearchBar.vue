@@ -41,7 +41,7 @@
     </div>
 
     <input
-      class="w-full px-4 py-2 border rounded-sm border-def-lime placeholder:text-base/10"
+      class="w-full px-4 py-2 border rounded-sm border-def-lime placeholder:text-base/10 placeholder:text-gray-500"
       type="text"
       placeholder="Find goods"
       id="search"
