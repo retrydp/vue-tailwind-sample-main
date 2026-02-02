@@ -14,7 +14,7 @@ const sections = [
   {
     component: PromoHighlights,
     props: {
-      title: 'advantages',
+      title: 'Advantages',
       subLink: 'placeholder2'
     }
   }
