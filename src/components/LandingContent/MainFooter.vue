@@ -1,11 +1,16 @@
 <template>
   <div
-    class="flex px-7 pt-10 pb-7 mb-14 bg-amber-100/80 justify-between flex-wrap gap-y-6 bg-[url('@assets/footer_pattern.png')] border"
+    class="flex px-7 gap-10 xl:px-28 md:px-4 md:py-8 pt-10 pb-7 mb-14 md:mb-0 bg-amber-100/80 justify-between flex-wrap gap-y-6 bg-[url('@assets/footer_pattern.png')]"
   >
-    <img src="@assets/logo.png" alt="Logo" class="max-h-16 block object-contain border" />
-    <div class="flex flex-col justify-between border">
-      <div class="flex justify-evenly">
-        <svg class="h-5 w-5" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <img src="@assets/logo.png" alt="Logo" class="max-h-16 block object-contain" />
+    <div class="flex flex-col md:flex-row justify-between md:order-last md:items-center md:gap-6">
+      <div class="flex justify-evenly md:flex-wrap md:justify-center md:gap-y-3 xl:flex-nowrap xl:gap-4">
+        <svg
+          class="h-5 w-5 md:basis-1/2"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_87_7153)" />
           <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_87_7153)" />
           <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_87_7153)" />
@@ -66,7 +71,7 @@
           </defs>
         </svg>
         <svg
-          class="h-5 w-5"
+          class="h-5 w-5 md:basis-1/2"
           viewBox="0 0 48 48"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +90,7 @@
           </g>
         </svg>
         <svg
-          class="h-5 w-5"
+          class="h-5 w-5 md:basis-1/2"
           viewBox="0 -2 44 44"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +109,7 @@
           </g>
         </svg>
         <svg
-          class="h-5 w-5"
+          class="h-5 w-5 md:basis-1/2"
           viewBox="0 -4 48 48"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -138,10 +143,10 @@
             transform="translate(-20)"
           />
         </svg>
-        <p class="font-bold">8 800 777 33 33</p>
+        <p>8 800 777 33 33</p>
       </div>
     </div>
-    <div class="flex gap-4 flex-wrap text-xs">
+    <div class="flex gap-4 flex-wrap text-xs items-center md:grow">
       <a href="#">About</a><a href="#">Contacts</a><a href="#">Articles</a
       ><a href="#">Job vacancy</a><a href="#">Personal Data Processing Policy</a>
     </div>
