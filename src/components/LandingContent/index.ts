@@ -1,3 +1,3 @@
 import BannerHero from './BannerHero.vue';
-
-export { BannerHero };
+import MainFooter from './MainFooter.vue';
+export { BannerHero, MainFooter };
