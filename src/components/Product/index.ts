@@ -1,2 +1,4 @@
+import ProductCard from './ProductCard.vue';
 import ProductGrid from './ProductGrid.vue';
-export default ProductGrid;
+
+export { ProductCard, ProductGrid };

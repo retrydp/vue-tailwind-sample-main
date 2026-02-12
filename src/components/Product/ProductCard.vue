@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import ProductCardDetails from './ui/ProductCardDetails.vue';
-import ProductCardPreview from './ui/ProductCardPreview.vue';
+import { ProductCardDetails, ProductCardPreview } from './ui';
 </script>
 
 <template>

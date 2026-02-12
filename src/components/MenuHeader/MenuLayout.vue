@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import MenuCatalogButton from './ui/MenuCatalogButton.vue';
-import MenuSearchBar from './ui/MenuSearchBar.vue';
-import MenuUserSection from './ui/MenuUserSection.vue';
+import { MenuCatalogButton, MenuSearchBar, MenuUserSection } from './ui';
 </script>
 
 <template>

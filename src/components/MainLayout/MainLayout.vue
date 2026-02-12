@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import DisplaySection from '../LandingContent/DisplaySection.vue';
-import PromoHighlights from '@components/LandingContent/PromoHighlights.vue';
-import ProductGrid from '@components/Product/ProductGrid.vue';
+import { PromoHighlights, DisplaySection } from '@components/LandingContent';
+import { ProductGrid } from '@components/Product';
 
 const sections = [
   {

@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import ProductCardRating from './ProductCardRating.vue';
-import ProductCardAddButton from './ProductCardAddButton.vue';
+import { ProductCardRating, ProductCardAddButton } from '.';
 </script>
 
 <template>

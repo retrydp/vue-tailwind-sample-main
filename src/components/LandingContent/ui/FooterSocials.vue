@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { FacebookIcon, TwitterIcon, LinkedInIcon, InstagramIcon } from './index';
+import { FacebookIcon, TwitterIcon, LinkedInIcon, InstagramIcon } from '.';
 const socialsMap = [
   {
     name: 'InstagramIcon',

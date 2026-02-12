@@ -27,10 +27,10 @@ const colorMap = {
 <template>
   <div class="flex gap-1 flex-col md:flex-row justify-between lg:gap-8 xl:gap-10">
     <a
-      v-for="{title, description, imageSrc, color, altText, href} in promoHighlightsMap"
+      v-for="{ title, description, imageSrc, color, altText, href } in promoHighlightsMap"
       :key="title"
       :href="href"
-      :class="['flex rounded-sm grow items-center hover:shadow-lg', colorMap[color]]"
+      :class="['flex rounded-sm grow items-center hover:shadow-xl', colorMap[color]]"
     >
       <div class="flex flex-col gap-1.5 p-5">
         <p class="font-bold text-xl">{{ title }}</p>
