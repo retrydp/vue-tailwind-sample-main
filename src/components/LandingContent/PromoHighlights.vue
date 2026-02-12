@@ -30,7 +30,7 @@ const colorMap = {
       v-for="{ title, description, imageSrc, color, altText, href } in promoHighlightsMap"
       :key="title"
       :href="href"
-      :class="['flex rounded-sm grow items-center hover:shadow-xl', colorMap[color]]"
+      :class="['flex rounded-sm grow items-center hover:shadow-xl transition-shadow duration-300', colorMap[color]]"
     >
       <div class="flex flex-col gap-1.5 p-5">
         <p class="font-bold text-xl">{{ title }}</p>

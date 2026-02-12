@@ -1,7 +1,7 @@
 <template>
   <div class="relative flex justify-center">
     <button
-      class="flex absolute right-2 top-2 p-1.5 rounded-sm items-center bg-gray-600/15 text-white hover:text-def-orange"
+      class="flex absolute right-2 top-2 p-1.5 rounded-sm items-center bg-gray-600/10 hover:bg-gray-600/5 text-white hover:text-def-orange "
     >
       <svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path

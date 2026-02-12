@@ -19,7 +19,6 @@ import { MenuCatalogButton, MenuSearchBar, MenuUserSection } from './ui';
             Food
           </p>
         </div>
-
         <MenuCatalogButton />
         <MenuSearchBar />
       </div>
