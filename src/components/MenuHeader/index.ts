@@ -1,2 +1,2 @@
-import MenuLayout from './MenuLayout.vue';
-export { MenuLayout };
+import MenuHeader from './MenuHeader.vue';
+export { MenuHeader as MenuLayout };
